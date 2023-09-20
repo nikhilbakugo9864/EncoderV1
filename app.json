@@ -4,12 +4,6 @@
     "repository": "https://github.com/The-Hunter-Oraganization/Erika-Amano",
     "logo": "https://telegra.ph/file/7e3c7f4f70272c6e59c52.jpg",
     "keywords": ["python", "pyrogram", "telegram", "compressor-bot"],
-    "image": "heroku/python",
-    "formation": {
-      "worker": {
-        "quantity": 1,
-      }
-    },
   "env": {
     "BOT_TOKEN": {
       "description": "Get it from @BotFather"
@@ -32,5 +26,6 @@
       "description": "Files Channel ID",
       "required": false
     }
-  }
+  },
+  "stack": "container"
 }
