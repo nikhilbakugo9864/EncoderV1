@@ -1,0 +1,37 @@
+{
+  "name": "Erika Amano",
+    "description": "Simple Telegram Video Encoder Bot.",
+    "repository": "https://github.com/The-Hunter-Oraganization/Erika-Amano",
+    "logo": "https://telegra.ph/file/7e3c7f4f70272c6e59c52.jpg",
+    "keywords": ["python", "pyrogram", "telegram", "compressor-bot"],
+    "image": "heroku/python",
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Get it from @BotFather"
+    },
+    "API_ID": {
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+    },
+    "APP_HASH": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram ID",
+      "value": "9415241"
+    },
+    "MONGO_DB": {
+      "description": "get from cloud.mongodb.com",
+      "value": ""
+    },
+    "FILES_CHANNEL": {
+      "description": "Files Channel ID",
+      "required": false
+    }
+  }
+}
