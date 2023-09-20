@@ -1,0 +1,8 @@
+pyrogram
+tgcrypto
+pymongo
+ethon
+dnspython
+asyncio
+pillow
+wget
